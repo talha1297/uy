@@ -6,6 +6,26 @@ $(document).ready (function (){
       prevArrow: false,
       nextArrow: false,
       autoplay: true,
+      responsive:[
+        {
+            breakpoint:992,
+            settings:{
+                slidesToShow:1,
+            }
+        },
+        {
+            breakpoint:768,
+            settings:{
+                slidesToShow:1,
+            }
+        },
+        {
+            breakpoint:360,
+            settings:{
+                slidesToShow:1,
+            }
+        },
+    ]
   });
   $('.slider-2').slick({
       slidesToShow:4,
@@ -14,5 +34,25 @@ $(document).ready (function (){
       prevArrow: false,
       nextArrow: false,
       autoplay: true,
+      responsive:[
+        {
+            breakpoint:992,
+            settings:{
+                slidesToShow:1,
+            }
+        },
+        {
+            breakpoint:768,
+            settings:{
+                slidesToShow:1,
+            }
+        },
+        {
+            breakpoint:360,
+            settings:{
+                slidesToShow:1,
+            }
+        },
+    ]
   });
 })
