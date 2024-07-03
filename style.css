@@ -1914,4 +1914,8 @@ footer .footer-top .ft-top-right>.srinput>button {
         margin-bottom: .75rem
     }
 
+    .parallax-move{
+        display: none;
+    }
+
 }
